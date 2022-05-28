@@ -84,6 +84,20 @@ body {
     color: var(--card3);
 }
 
+.card__cta:hover {
+    background-color: unset;
+    outline: 2px solid var(--mainbg);
+    color: var(--mainbg);
+}
+
+.card:nth-child(2) .card__cta:hover {
+    color: var(--mainbg);
+}
+
+.card:nth-child(3) .card__cta:hover {
+    color: var(--mainbg);
+}
+
 /* footer */
 .attribution {
     font-size: 11px;
